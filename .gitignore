@@ -88,3 +88,15 @@ Programs/*/*.bc
 *.sql
 *.sqlite
 *.data
+
+# Rust build files #
+####################
+target
+RustPrograms/target
+
+# Intermediate build files #
+############################
+PlayerBinary.x
+SetupBinary.x
+RustPrograms/examples/**/*.wasm
+RustPrograms/examples/**/*.asm
