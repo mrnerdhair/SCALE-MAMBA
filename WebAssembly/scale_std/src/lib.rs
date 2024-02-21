@@ -2,11 +2,8 @@
 // Copyright (c) 2021, Cosmian Tech SAS, 53-55 rue La Boétie, Paris, France.
 
 #![feature(
-    const_generics,
-    const_evaluatable_checked,
+    generic_const_exprs,
     exclusive_range_pattern,
-    half_open_range_patterns,
-    const_panic
 )]
 #![no_std]
 #![allow(incomplete_features)]

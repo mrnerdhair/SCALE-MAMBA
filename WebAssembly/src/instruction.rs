@@ -349,9 +349,9 @@ impl<'a, 'bh, 'cx, 'wasm> CurrentBlockHandler<'a, 'bh, 'cx, 'wasm> {
                     // a_ltz = a < 0
                     // b_ltz = b < 0
                     // Less than op
-                    // https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=7306ccee550d803411a661fba17aed9f
+                    // https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=7306ccee550d803411a661fba17aed9f
                     // Greater than op
-                    // https://play.rust-lang.org/?version=stable&mode=debug&edition=2018&gist=4b69ea9b5fd3d55628ec53fad2f2e879
+                    // https://play.rust-lang.org/?version=stable&mode=debug&edition=2021&gist=4b69ea9b5fd3d55628ec53fad2f2e879
 
                     // xneg yneg xy res
                     // 0    0    1  1   5 < 10  5 < 10

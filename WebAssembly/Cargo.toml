@@ -2,7 +2,7 @@
 name = "wasca"
 version = "0.1.0"
 authors = ["Oliver Scherer <oliver.scherer@cosmian.com>"]
-edition = "2018"
+edition = "2021"
 publish = false
 license = "MIT AND Apache-2.0"
 

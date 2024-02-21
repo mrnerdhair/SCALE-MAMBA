@@ -2,7 +2,7 @@
 name = "scale_std"
 version = "0.1.2"
 authors = ["Oliver Scherer <oliver.scherer@cosmian.com>", "Nigel P. Smart", "Benjamin Coenen <benjamin.coenen@cosmian.com>"]
-edition = "2018"
+edition = "2021"
 description = "datastructures and algorithms to be run on the SCALE engine"
 license-file = "../../License.txt"
 repository = "https://github.com/KULeuven-COSIC/SCALE-MAMBA"

@@ -16,7 +16,7 @@ unset ARGS[${#ARGS[@]}-1]
 
 # Generate the wasm for the given Rust program
 # FIXME: set `-Cinline-threshold=9999`
-env SHARING_DATA=$ROOT/Data/SharingData.txt RUSTC_BOOTSTRAP=1 RUSTFLAGS="-Ctarget-feature=+simd128,+unimplemented-simd128 -C inline-threshold=9999 --remap-path-prefix $ROOT=" cargo build --target wasm32-unknown-unknown --manifest-path=$ROOT/RustPrograms/Cargo.toml --release --example $test || exit 1
+env SHARING_DATA=$ROOT/Data/SharingData.txt RUSTC_BOOTSTRAP=1 RUSTFLAGS="-Ctarget-feature=+simd128 -C inline-threshold=9999 --remap-path-prefix $ROOT=" cargo build --target wasm32-unknown-unknown --manifest-path=$ROOT/RustPrograms/Cargo.toml --release --example $test || exit 1
 # The path where cargo build the file to
 file=$ROOT/RustPrograms/target/wasm32-unknown-unknown/release/examples/$test.wasm
 # Create the output directory

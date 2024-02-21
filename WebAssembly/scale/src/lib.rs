@@ -2,7 +2,7 @@
 // Copyright (c) 2021, Cosmian Tech SAS, 53-55 rue La Boétie, Paris, France.
 
 #![cfg_attr(not(feature = "emulate"), no_std)]
-#![cfg_attr(not(feature = "emulate"), feature(wasm_simd, simd_ffi))]
+#![cfg_attr(not(feature = "emulate"), feature(simd_ffi))]
 
 #[cfg(feature = "emulate")]
 pub use std::process::exit;

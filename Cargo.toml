@@ -1,3 +1,4 @@
 [workspace]
 members = ["Assembler", "WebAssembly", "Documentation", "src"]
 exclude = ["WebAssembly/demos/*"]
+resolver = "2"

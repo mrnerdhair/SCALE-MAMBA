@@ -2,7 +2,7 @@
 name = "scale_documentation"
 version = "0.1.2"
 authors = ["Oliver Scherer <oliver.scherer@cosmian.com>", "Benjamin Coenen <benjamin.coenen@cosmian.com>"]
-edition = "2018"
+edition = "2021"
 description = "structured SCALE assembly documentation"
 repository = "https://github.com/KULeuven-COSIC/SCALE-MAMBA"
 license-file = "../License.txt"

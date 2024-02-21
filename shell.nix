@@ -28,5 +28,6 @@ in pkgs.mkShell {
     pkg-config
     python27Packages.gmpy2
     graphviz
+    clang
   ];
 }
